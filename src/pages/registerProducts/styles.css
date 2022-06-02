@@ -1,0 +1,52 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+}
+
+.principal {
+    display: flex;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+#description {
+    height: 100%;
+}
+
+.actions {
+    background-color: rgb(247, 247, 247);
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+
+    padding: 20px;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

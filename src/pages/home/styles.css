@@ -1,0 +1,14 @@
+.boxInput {
+    background-color: rgb(247, 247, 247);
+
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    
+}
