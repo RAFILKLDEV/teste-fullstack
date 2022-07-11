@@ -1,0 +1,83 @@
+.loading {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+#main .nav {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding: .5rem;
+
+    width: 100%;
+}
+
+#main .nav .logo {
+    flex: 1;
+    font-size: 1rem;
+    margin: 0;
+}
+
+#main .search,
+#main .new {
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+
+    max-width: 480px;
+
+    margin: 2rem auto;
+    padding: .5rem;
+    gap: 10px;
+}
+
+#main label {
+    flex-shrink: 0;
+}
+
+#main input {
+    width: 100%;
+}
+
+#main .repositories {
+    max-width: 480px;
+    margin: 1rem auto;
+}
+
+#main .repositories .title {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#main .repositories .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main .repositories .item {
+    display: flex;
+    align-items: center;
+
+
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding: .5rem;
+}
+
+#main .repositories .item:last-child {
+    border-bottom: none;
+}
+
+#main .repositories .item .info {
+    flex: 1;
+}
+
+#main .repositories .item .name {
+    font-size: 1.5rem;
+}
